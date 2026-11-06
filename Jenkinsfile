@@ -17,7 +17,7 @@ pipeline {
         stage('Git Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/YOUR_USERNAME/jenkins-sonarqube-automation.git'
+                    url: 'https://github.com/udaykn13811-hub/jenkins-sonarqube-automation.git'
             }
         }
 
